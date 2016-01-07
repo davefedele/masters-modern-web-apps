@@ -10,8 +10,6 @@ export default React.createClass({
 
   render () {
     const {me} = this.props
-    console.log(this.props);
-    console.log(me);
 
     return (
       <NavHelper>
