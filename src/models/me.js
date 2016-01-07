@@ -5,7 +5,6 @@ export default Model.extend({
 
   initialize () {
     this.token = window.localStorage.token
-
     this.on('change:token', this.onTokenChange)
   },
 
