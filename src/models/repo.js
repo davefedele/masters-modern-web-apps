@@ -1,6 +1,6 @@
-import Model from 'ampersandModel'
+import Model from 'ampersand-model'
 
-export default Model.extent({
+export default Model.extend({
   props: {
     id: 'number',
     name: 'string',
